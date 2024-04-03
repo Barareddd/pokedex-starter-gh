@@ -1,7 +1,7 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomePage from "@/pages/home";
-import DetailPage from "@/pages/detail";
+import HomePage from "./pages/home";
+import DetailPage from "./pages/detail";
 
 function App() {
   const router = createBrowserRouter([
