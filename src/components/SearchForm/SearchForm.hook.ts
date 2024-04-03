@@ -1,9 +1,9 @@
 import { useEffect } from "react";
-import { pokemonListServices, pokemonDetailServices } from "@/services";
+import { pokemonListServices, pokemonDetailServices } from "../../services";
 import { useForm } from "react-hook-form";
-import { usePokemonListStore } from "@/store/pokemonList";
-import { generationList } from "@/utils/optionList";
-import { IPokemonDetailResponse } from "@/interface/pokemonDetail";
+import { usePokemonListStore } from "../../store/pokemonList";
+import { generationList } from "../../utils/optionList";
+import { IPokemonDetailResponse } from "../../interface/pokemonDetail";
 
 const useSearchForm = () => {
   const { register, watch } = useForm();

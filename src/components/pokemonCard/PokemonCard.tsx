@@ -1,4 +1,4 @@
-import { Type } from "@/interface/pokemonDetail";
+import { Type } from "../../interface/pokemonDetail";
 import { Link } from "react-router-dom";
 
 interface PokemonCardProps {

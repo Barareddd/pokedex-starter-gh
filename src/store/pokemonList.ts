@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { IPokemonDetailResponse } from "@/interface/pokemonDetail";
+import { IPokemonDetailResponse } from "../interface/pokemonDetail";
 
 const initStore = {
   pokemon: {

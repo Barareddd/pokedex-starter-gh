@@ -1,5 +1,5 @@
-import { generationList, typesList, sortList } from "@/utils/optionList";
-import { useSearchForm } from "@/components/SearchForm";
+import { generationList, typesList, sortList } from "../../utils/optionList";
+import { useSearchForm } from ".";
 
 const SearchForm = () => {
   const { fieldKeyword, fieldGeneration, fieldSort, fieldType } =

@@ -1,7 +1,7 @@
 import axios from "axios";
-import { POKEMON_BASE_URL } from "@/utils/constant";
-import { IPokemonListResponse } from "@/interface/pokemonList";
-import { handleResponse, IResponse } from "@/utils/handleResponse";
+import { POKEMON_BASE_URL } from "../utils/constant";
+import { IPokemonListResponse } from "../interface/pokemonList";
+import { handleResponse, IResponse } from "../utils/handleResponse";
 
 interface IGetPokemonListResponse extends IResponse {
   status: number | undefined;
